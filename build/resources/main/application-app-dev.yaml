@@ -1,0 +1,9 @@
+app:
+  name: abb
+  appVersion: 3.12
+  environment: dev
+  appDeveloper:
+    front: ulvi
+    back:
+      ${DEVELOPERS:test,dev}
+
